@@ -1,4 +1,4 @@
-package js::math
+package js
 
 export native function abs(int x) ->(int r)
 // Return must be positive
