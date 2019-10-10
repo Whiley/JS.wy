@@ -49,7 +49,7 @@ Wy.copy = function(obj) {
     } else if(obj.constructor == Wy.Record) {
 	// Clone whiley records by recursively (i.e. deep) cloning
 	// all fields.
-	var r = {};
+	var r = new Wy.Record({});
 	for(var p in obj) {
 	    r[p] = Wy.copy(obj[p]);
 	}
