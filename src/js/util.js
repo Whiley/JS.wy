@@ -50,7 +50,7 @@ Wy.copy = function(obj) {
 	// Clone whiley records by recursively (i.e. deep) cloning
 	// all fields.
 	var r = {};
-	for(p in obj) {
+	for(var p in obj) {
 	    r[p] = Wy.copy(obj[p]);
 	}
 	return r;
@@ -116,6 +116,11 @@ Wy.Record = function(x) {
  */
 Wy.Ref = function(x) {
     this.$ref = x;
+};
+
+// THIS SHOULD BE DEPRECATED!
+Wy.toString = function(jsString) {
+    return js$util$to_string(jsString);
 };
 
 /**
