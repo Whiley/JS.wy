@@ -13,3 +13,6 @@ public export native function sin(uint angle, uint magnitude) -> (int r)
 
 // Compute cos(x) * magnitude
 public export native function cos(uint angle, uint magnitude) -> (int r)
+
+// Generate random number between 0 and n-1 (inclusive).
+public export native method random(uint n) -> (int r)
