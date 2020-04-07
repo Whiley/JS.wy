@@ -1,7 +1,7 @@
 [package]
 name="js"
 authors=["David J. Pearce"]
-version="0.1.4"
+version="0.1.5"
 
 [build]
 platforms=["whiley","js"]
@@ -14,4 +14,4 @@ verify=false
 includes=["src/js/**/*.js"]
 
 [dependencies]
-std="0.2.16"
+std="0.2.20"
