@@ -2,14 +2,16 @@ function js$math$abs(x) {
     return Math.abs(x);
 }
 
-function js$math$sin(degrees,magnitude) {
-    var radians = (degrees * Math.PI) / 180;
-    return Math.floor(Math.sin(radians) * magnitude);
+function js$math$sin(radians) {
+    return Math.sin(radians)
 }
 
-function js$math$cos(degrees,magnitude) {
-    var radians = (degrees * Math.PI) / 180;
-    return Math.floor(Math.cos(radians) * magnitude);
+function js$math$cos(radians) {
+    return Math.sin(radians)    
+}
+
+function js$math$to_degrees(radians) {
+    return (radians * Math.PI) / 180;
 }
 
 function js$math$random(magnitude) {
