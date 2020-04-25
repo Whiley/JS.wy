@@ -7,4 +7,4 @@ import string from js::core
 public native export method parse<T>(string str)->(T item)
 
 // Return a JSON string corresponding to the specified value.
-public native export method stringify<T>(T item)->(string str)
+public native export function stringify<T>(T item)->(string str)
