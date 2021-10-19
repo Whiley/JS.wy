@@ -14,4 +14,4 @@ verify=false
 includes=["src/js/**/*.js"]
 
 [dependencies]
-std="0.2.20"
+std="0.3.2"
