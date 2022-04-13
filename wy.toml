@@ -9,7 +9,6 @@ platforms=["whiley","js"]
 [build.whiley]
 source="src/whiley"
 verify=false
-library=true
 
 [build.js]
 includes=["src/js/*.js"]
