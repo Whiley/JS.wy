@@ -1,6 +1,6 @@
 package js
 
-import u16 from std::integer
+import u16 from std::int
 
 public final int MAX_SAFE_INTEGER = 9007199254740991
 public final int MIN_SAFE_INTEGER = -9007199254740991
